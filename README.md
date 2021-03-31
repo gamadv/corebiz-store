@@ -25,7 +25,7 @@
 
 <div align="center">
   <h1 align=center> 
-    <img src="readme-assets/corebiz-laptop-frame.png" width="650" height="300">
+    <img src="readme-assets/corebiz-laptop-frame.png" width="550" height="300">
     <img src="/readme-assets/corebiz-iphone-frame.png" width="200" height="360">
  </h1></div>
 
