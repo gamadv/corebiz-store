@@ -74,7 +74,7 @@ para _Sites_ do ramo.
   ```
   ```sh
     E Por fim, para rodar o projeto em seu http://localhost:3000/ basta apenas:
-    yarn install
+    yarn start
   ````
 ## :black_nib: Observações
 Algumas notas sobre características e requisitos do projetos:
@@ -83,5 +83,13 @@ Algumas notas sobre características e requisitos do projetos:
 - [x] Ícone de minha conta mobile não está presente, possívelmente dentro do menu.
 - [x] Funções presentes: Apenas de adicionar ao carrinho e envio de _Newsletter_, os demais elementos são estáticos
 - [x] Rotas Utilizadas: [GET](https://corebiz-test.herokuapp.com/api/v1/products) para produtos E [POST](https://corebiz-test.herokuapp.com/api/v1/newsletter) para envio de Newsletter.
+#### :wrench: Pendências Técnicas
+Houve um problema com o Carrosel utilizado e decidi adotar uma saída rápida, podendo ser checada no futuro:
+- Foi criado uma cópia da dependencia para a pasta _Utils_ por conta de um erro apresentado por uma configuração de 
+_Prop_ chamadad "isRTL", devido ao tempo não foi possível a resolução deste problema.
+Segue problema:
+<img src="readme-assets/react-elastic-errors.png" width="550" height="300">
+
+
 
 <h3 align="center"> :checkered_flag: Made by: <a href="https://www.linkedin.com/in/gama-leal" /> Moacir Gama </a> :checkered_flag: </h3>
