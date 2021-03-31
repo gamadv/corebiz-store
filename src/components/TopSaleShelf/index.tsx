@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import Carousel from 'react-elastic-carousel';
+import Carousel from '../../utils/react-elastic-carousel';
 
 import api from '../../services/api';
 import { useCartCounter } from '../../hooks/CartProvider';
@@ -28,9 +28,9 @@ const TopSaleShelf: React.FC = () => {
   const [products, setProducts] = useState<IProduct[]>([]);
   const { cartCount, updateCartCount } = useCartCounter();
   const breakPoints = [
-    { width: 320, itemsToShow: 2, itemsToScroll: 1 },
-    { width: 768, itemsToShow: 4 },
-    { width: 1300, itemsToShow: 4 },
+    { width: 320, itemsToShow: 2, itemsToScroll: 1},
+    { width: 768, itemsToShow: 4},
+    { width: 1300, itemsToShow: 4},
   ];
   const fetchProduct = useCallback(async () => {
     const response = await api.get<IProduct[]>('products');
