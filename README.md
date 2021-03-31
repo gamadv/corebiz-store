@@ -76,7 +76,7 @@ para _Sites_ do ramo.
     yarn install
   ````
 ## :black_nib: Observações
-Algumas notas sobre os requisitos do projetose afins:
+Algumas notas sobre características e requisitos do projetos:
 - [x] O Layout Mobile foi considerado apenas para aparelhos de 320px de largura (No caso semelhantes ao iphone)
 - [x] O menu mobile não foi citado para o layout, apenas seu ícone de inicialização.
 - [x] Ícone de minha conta mobile não está presente, possívelmente dentro do menu.
