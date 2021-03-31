@@ -55,6 +55,7 @@ para _Sites_ do ramo.
 - [x] <b>React Elastic Carousel:</b> <i>Para construção de Slides das Shelfs</i>
 - [x] <b>Typescript:</b> <i>Como Superset para Javascript</i>
 - [x] <b>Context e Hooks:</b> <i>Para manipulação dos valores do Minicart</i>
+- [x] <b>YUP:</b> <i>Para validação de formulário.</i>
 
 ## :clubs: Baixando o Projeto
 
