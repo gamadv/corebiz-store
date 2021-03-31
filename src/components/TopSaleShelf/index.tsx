@@ -89,8 +89,8 @@ const TopSaleShelf: React.FC = () => {
       <h2>Mais Vendidos</h2>
       <hr />
       <Carousel breakPoints={breakPoints}>
-        {products.map((product) => (
-          <article key={product.productId}>
+        {products.map((product, index) => (
+          <article key={index}>
             <img src={product.imageUrl} alt="product" />
 
             <div>
